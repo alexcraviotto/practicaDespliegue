@@ -53,9 +53,9 @@ describe("changeColor function", () => {
   });
 
   // test que falla a propósito
-  it("should fail", () => {
-    expect(true).toBe(false);
-  });
+  // it("should fail", () => {
+  //   expect(true).toBe(false);
+  // });
 
   afterEach(() => {
     $(".bird").remove();
